@@ -1,0 +1,194 @@
+@media only screen and (max-width: 900px) 
+{
+	body
+	{
+		background:#f2f2f2;
+	}
+
+	header
+	{
+		height: auto;
+		position: fixed;
+		top: 0;
+		z-index: 999;
+		background: #fff;
+	}
+
+	header .logoSite
+	{
+		margin:0px;
+		width: 100%;
+		height: 60px;
+		text-align: center;
+		border-bottom: 1px solid #ddd;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 40% auto; 
+	}
+
+	header ol
+	{
+		float: left;
+		width: 100%;
+		height: 40px;
+	}
+
+	header ol li
+	{
+		padding: 0px;
+		width: 25%;
+		height: 39px;
+		line-height: 40px;
+		text-align: center;
+	}
+
+	div#content
+	{
+		padding: 0px;
+		margin:0px;
+		width: 100%;
+		overflow: hidden; 
+		padding-top: 130px;
+	}
+
+	div#content ul.conList > li
+	{
+		width: 80%;
+		margin-left: 10%;
+		margin-bottom: 15px;
+	}
+
+	div#content ul.conList > li:hover
+	{
+		margin-top: 30px;
+	}
+
+	div#content ul.conList li .conImg
+	{
+		width: 94%;
+		height: 180px;
+	}
+
+	div#content ul.conList li .conImg .conimg
+	{
+		width: 100%;
+		background-size: 100% auto;
+	}
+
+	div#content .aboutus,
+	div#content form
+	{
+		width: 90%;
+		margin:0;
+		padding: 0 5%;
+
+	}
+
+	div#content form input,
+	div#content form textarea
+	{
+		width: 80%;
+		padding: 5%;
+		margin:5%;
+		font-size: 30px;
+		min-width: 80%;
+		max-width: 80%;
+	}
+
+	div#content form textarea
+	{
+		line-height: 50px;
+	}
+
+	div#content form button
+	{
+		width: 80%;
+		height: 100px;
+		border-radius: 0px;
+	}
+
+	.contactme 
+	{
+		width: 80%;
+		margin:30px 10%;
+		padding-bottom: 30px;
+	}
+
+	div#content .team
+	{
+		width: 90%;
+		padding: 30px 5%;
+	}
+
+	div#content .team li
+	{
+		width: 45%;
+		margin: 10px 2.5%;
+	}
+
+	div#content .workMenu
+	{
+		width: 100%;
+		height: 35px;
+	}
+
+	div#content .workMenu li
+	{
+		width: 18%;
+		padding: 0 1%;
+		height: 35px;
+		overflow: hidden;
+		text-align: center;
+	}
+
+	div#content .workContent li
+	{
+		margin: 0;
+		width: 50%;
+	}
+
+	div#content .workContent li div.workImg
+	{
+		width: 100%;
+	}
+
+	div#content .articleTop .articleHeader
+	{
+		width: 90%;
+		height: auto;
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+
+	div#content .articleTop .articleHeader span
+	{
+		font-size: 14px;
+		font-weight: normal;
+		font-style: italic;
+		color: #777;
+		text-align: center;
+	}
+
+	div#content .articleTop .articleImg
+	{
+		width: 100%;
+		border-radius: 0px;
+		margin-top:30px;
+	}
+
+	div#content .articleContent
+	{
+		font-family: 'Roboto',Helvetica,sans-serif,Tahoma;
+		font-size: 16px;
+		line-height: 31px;
+		color: #333;
+	}
+
+	.sharePost
+	{
+		display: none;
+	}
+
+
+}
+
